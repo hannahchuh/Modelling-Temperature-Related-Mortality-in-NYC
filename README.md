@@ -3,10 +3,12 @@ ISEF Finalist -- Research on Mortality and Temperature in NYC
 This research project was conducted in the Summer/Fall of 2017. The code, paper, poster, and some sample data are hosted here.It analyzes several decades of temperature, dew point, and mortality data from New York City, using least-squares linear regression to model future heat-related mortalities in the future. My findings show an significant and concerning increase in annual temperature-related mortalities.
 
 <h1>Data Sources</h1>
-- Observational mortality data from the Health Effects Institute Research Report 94, 1987-2000
-- Dew points and temperatures (hourly basis) from a National Oceanic and Atmospheric Administration, LaGuardia Airport, 1987-2000 period for training the model, 1973-2015 for additional analysis
 
-* Seven GCMs from CMIP5 for temperature and dew point projections, 1988-2000 and 2020-2080
+- <b>Mortality Data: </b>Observational mortality data from the Health Effects Institute Research Report 94, 1987-2000
+
+- <b>Climate Data: </b>Dew points and temperatures (hourly basis) from a National Oceanic and Atmospheric Administration, LaGuardia Airport, 1987-2000 period for training the model, 1973-2015 for additional analysis
+
+- <b>Climate Projections: </b>Seven GCMs from CMIP5 for temperature and dew point projections, 1988-2000 and 2020-2080
   - BNU-ESM
   - CSIRO-MK3-6-0
   - CNRM-CM5
@@ -15,9 +17,13 @@ This research project was conducted in the Summer/Fall of 2017. The code, paper,
   - NORESM1-M
 
 <h1>Tools</h1>
+
 - scipy
+
 - scikit-learn
+
 - matplotlib
+
 - pickle
 
 <h1>The offical abstract:</h1>
