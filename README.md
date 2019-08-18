@@ -1,12 +1,13 @@
 # Modelling Mortality and Temperature in NYC
-ISEF Finalist -- Research on Mortality and Temperature in NYC
-This research project was conducted in the Summer/Fall of 2017. The code, paper, poster, and some sample data are hosted here.It analyzes several decades of temperature, dew point, and mortality data from New York City, using least-squares linear regression to model future heat-related mortalities in the future. My findings show an significant and concerning increase in annual temperature-related mortalities.
+Given EX1, EX2, and EX3, the relationship between has become a rising global public health concern. How will increasing temperatures due to climate change affect mortality in the future? This research attempts to investigate such a relationship. The research was conducted in the Summer/Fall of 2017, winning first in Earth and Environmental Sciences at the Western Nevada Science and Engineering Fair and an Intel ISEF Finalist. The code, full paper, research prsentation poster, and some sample data are hosted here. I have analyzed several decades of temperature, dew point, and mortality data from New York City, using least-squares linear regression to model future heat-related mortalities in the future. My findings demonstrate a significant and concerning increase in annual temperature-related mortalities.
 
 <h1>Data Sources</h1>
 
 - <b>Mortality Data: </b>Observational mortality data from the Health Effects Institute Research Report 94, 1987-2000
 
-- <b>Climate Data: </b>Dew points and temperatures (hourly basis) from a National Oceanic and Atmospheric Administration, LaGuardia Airport, 1987-2000 period for training the model, 1973-2015 for additional analysis
+- <b>Climate Data: </b>Dew points and temperatures (hourly basis) from a National Oceanic and Atmospheric Administration, LaGuardia Airport
+  - 987-2000 period for training the model
+  - 1973-2015 for additional analysis
 
 - <b>Climate Projections: </b>Seven GCMs from CMIP5 for temperature and dew point projections, 1988-2000 and 2020-2080
   - BNU-ESM
